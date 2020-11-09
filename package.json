@@ -1,8 +1,8 @@
 {
-  "name": "vscode-web-playground",
-  "description": "Web playground for VS Code",
-  "version": "0.0.10",
-  "publisher": "vscode",
+  "name": "yautja",
+  "description": "yautja",
+  "version": "1.0.0",
+  "publisher": "val-verde",
   "license": "MIT",
   "enableProposedApi": true,
   "private": true,
