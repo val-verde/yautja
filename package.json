@@ -14,7 +14,7 @@
   ],
   "browser": "./dist/extension",
   "engines": {
-    "vscode": "^1.48.0"
+    "vscode": "^1.51.0"
   },
   "contributes": {
     "viewsWelcome": [
@@ -80,10 +80,10 @@
     "prepublish": "yarn webpack-cli --config extension.webpack.config --mode production"
   },
   "devDependencies": {
-    "@types/vscode": "^1.48.0",
+    "@types/vscode": "^1.51.0",
     "ts-loader": "^4.4.2",
     "typescript": "^4.1.0-dev.20200924",
-    "webpack": "^4.43.0",
+    "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
