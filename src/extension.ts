@@ -1,12 +1,9 @@
 import * as vscode from 'vscode';
 import { YautjaFS } from './yautjafs';
-import * as socketIO from 'socket.io-client';
 
 declare const navigator: unknown;
 
 export function activate(context: vscode.ExtensionContext) {
-    let socket = socketIO.io()
-
     if (typeof navigator === 'object') {    // do not run under node.js
         // Figure out if we have a repository
         let repositoryOwner: string | undefined = undefined;
