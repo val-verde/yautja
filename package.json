@@ -7,7 +7,7 @@
   "enableProposedApi": true,
   "private": true,
   "activationEvents": [
-    "onFileSystem:memfs",
+    "onFileSystem:yautjafs",
     "onFileSystem:github",
     "onFileSystem:codespace",
     "onDebug"
@@ -85,5 +85,8 @@
     "typescript": "^3.9.7",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "socket.io-client": "^3.0.1"
   }
 }
